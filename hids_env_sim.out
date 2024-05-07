@@ -1,0 +1,41 @@
+(cyber) [climson@cyse689 Cymnasium]$ python3 hids_env_sim.py
+
+State:  Benign Request
+Action: Alert
+Reward: 0
+
+State:  PHP Script Request
+Action: Allow
+Reward: -1
+
+State:  Hexadecimal-Encoded String
+Action: Allow
+Reward: -1
+
+State:  Benign Request
+Action: Alert
+Reward: 0
+
+State:  Hexadecimal-Encoded String
+Action: Allow
+Reward: -1
+
+State:  Other Suspicious Request
+Action: Alert
+Reward: 1
+
+State:  PHP Script Request
+Action: Allow
+Reward: -1
+
+State:  Benign Request
+Action: Alert
+Reward: 0
+
+State:  Other Suspicious Request
+Action: Alert
+Reward: 1
+
+State:  Hexadecimal-Encoded String
+Action: Allow
+Reward: -1

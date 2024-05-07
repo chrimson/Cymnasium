@@ -1,0 +1,24 @@
+[root@ip-xxx-xxx-xxx-xxx ~]# ls -l /var/log/nginx/
+total 376
+-rw-r-----. 1 nginx root  4444 May  6 02:16 access.log
+-rw-r-----. 1 nginx root  9899 Apr 26 23:56 access.log-20240427.gz
+-rw-r-----. 1 nginx root  6875 Apr 27 23:59 access.log-20240428.gz
+-rw-r-----. 1 nginx root 37836 Apr 28 23:55 access.log-20240429.gz
+-rw-r-----. 1 nginx root  6585 Apr 29 23:40 access.log-20240430.gz
+-rw-r-----. 1 nginx root  6788 Apr 30 23:10 access.log-20240501.gz
+-rw-r-----. 1 nginx root  9627 May  1 23:38 access.log-20240502.gz
+-rw-r-----. 1 nginx root  5801 May  2 23:49 access.log-20240503.gz
+-rw-r-----. 1 nginx root  7734 May  3 23:50 access.log-20240504.gz
+-rw-r-----. 1 nginx root 29750 May  4 23:57 access.log-20240505.gz
+-rw-r-----. 1 nginx root 92384 May  5 23:55 access.log-20240506
+-rw-r-----. 1 nginx root  3687 May  6 01:49 error.log
+-rw-r-----. 1 nginx root  1814 Apr 26 23:11 error.log-20240427.gz
+-rw-r-----. 1 nginx root  2168 Apr 27 23:59 error.log-20240428.gz
+-rw-r-----. 1 nginx root 24781 Apr 28 23:47 error.log-20240429.gz
+-rw-r-----. 1 nginx root  3007 Apr 29 23:40 error.log-20240430.gz
+-rw-r-----. 1 nginx root  2119 Apr 30 22:09 error.log-20240501.gz
+-rw-r-----. 1 nginx root  2927 May  1 23:29 error.log-20240502.gz
+-rw-r-----. 1 nginx root  1740 May  2 23:12 error.log-20240503.gz
+-rw-r-----. 1 nginx root  3049 May  3 22:16 error.log-20240504.gz
+-rw-r-----. 1 nginx root  1782 May  4 23:22 error.log-20240505.gz
+-rw-r-----. 1 nginx root 72930 May  5 23:27 error.log-20240506
